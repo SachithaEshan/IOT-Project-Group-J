@@ -1,0 +1,84 @@
+2024-02-15 18:57:20
+2024-02-15 18:57:25
+2024-02-15 18:57:45
+2024-02-15 18:57:46
+2024-02-15 18:57:56
+2024-02-15 18:58:05
+2024-02-15 18:58:10
+2024-02-15 18:59:06
+2024-02-15 18:59:13
+2024-02-15 18:59:16
+2024-02-15 18:59:19
+2024-02-18 19:00:19
+2024-02-18 19:00:29
+2024-02-18 19:00:38
+2024-02-18 19:01:43
+2024-02-18 19:01:59
+2024-02-18 19:02:09
+2024-02-18 19:02:20
+2024-02-18 19:03:04
+2024-02-18 19:03:30
+2024-02-18 19:03:39
+2024-03-02 17:08:48
+2024-03-02 17:15:01
+2024-03-02 17:15:06
+2024-03-02 17:15:12
+2024-03-02 17:15:27
+2024-03-02 17:29:48 Latitude: {lat}, Longitude: {lng}, Speed: {speed}
+2024-03-02 17:29:51 Latitude: {lat}, Longitude: {lng}, Speed: {speed}
+2024-03-02 17:29:58 Latitude: {lat}, Longitude: {lng}, Speed: {speed}
+2024-03-02 17:30:03 Latitude: {lat}, Longitude: {lng}, Speed: {speed}
+2024-03-02 17:31:59 Latitude: {lat}, Longitude: {lng}, Speed: {speed}
+2024-03-02 17:32:02 Latitude: {lat}, Longitude: {lng}, Speed: {speed}
+2024-03-02 17:32:07 Latitude: {lat}, Longitude: {lng}, Speed: {speed}
+
+2024-03-02 18:22:01 Latitude: {lat}, Longitude: {lng}, Speed: {speed}
+2024-03-02 18:22:03 Latitude: {lat}, Longitude: {lng}, Speed: {speed}
+2024-03-02 18:22:06 Latitude: {lat}, Longitude: {lng}, Speed: {speed}
+2024-03-02 18:22:11 Latitude: {lat}, Longitude: {lng}, Speed: {speed}
+2024-03-03 08:17:10
+2024-03-03 08:17:13
+2024-03-03 08:17:19
+2024-03-03 08:17:22
+2024-03-03 08:21:43
+Speed: 0.17
+, Latitude: 7.299972, Longitude: 79.870590
+2024-03-03 08:21:48
+Speed: 0.17
+, Latitude: 7.299971, Longitude: 79.870583
+2024-03-03 08:21:51
+Speed: 0.33
+, Latitude: 7.299970, Longitude: 79.870583
+2024-03-03 08:21:59
+Speed: 0.28
+, Latitude: 7.299973, Longitude: 79.870598
+2024-03-03 08:28:14 - Speed: 0.41
+, Latitude: 7.300006, Longitude: 79.870598
+2024-03-03 08:28:20 - Speed: 0.43
+, Latitude: 7.300004, Longitude: 79.870590
+2024-03-03 17:10:28 - Speed: 0.15
+, Latitude: 7.299967, Longitude: 79.870621
+2024-03-03 17:12:39 - Speed: 0.80
+, Latitude: 7.300014, Longitude: 79.870659
+2024-03-03 17:12:40 - Speed: 1.28
+, Latitude: 7.300012, Longitude: 79.870667
+2024-03-03 17:14:53 - Speed: 2.22
+, Latitude: 7.300041, Longitude: 79.870758
+2024-03-03 17:14:56 - Speed: 3.07
+, Latitude: 7.300067, Longitude: 79.870766
+2024-03-03 17:15:13 - Speed: 2.22
+, Latitude: 7.300067, Longitude: 79.870766
+2024-03-03 17:15:51 - Speed: 2.30
+, Latitude: 7.300047, Longitude: 79.870728
+2024-03-16 12:39:07 - Speed: 0.11
+, Latitude: 7.300004, Longitude: 79.870613
+2024-03-16 12:39:12 - Speed: 0.96
+, Latitude: 7.300001, Longitude: 79.870613
+2024-03-16 12:39:19 - Speed: 0.19
+, Latitude: 7.300004, Longitude: 79.870613
+2024-03-16 12:39:27 - Speed: 0.41
+, Latitude: 7.300001, Longitude: 79.870613
+2024-03-17 19:36:53 - Speed: 0.35
+, Latitude: 7.299973, Longitude: 79.870674
+2024-03-17 19:37:03 - Speed: 0.17
+, Latitude: 7.299969, Longitude: 79.870674

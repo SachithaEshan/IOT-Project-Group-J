@@ -1,0 +1,75 @@
+#include <Wire.h>
+#include <MPU6050.h>
+#include <WiFi.h>
+
+MPU6050 mpu;
+
+const char *ssid = "YourWiFiNetwork";
+const char *password = "YourWiFiPassword";
+const int port = 1234;
+
+WiFiServer server(port);
+WiFiClient client;
+
+const float dt = 0.01; // Time step in seconds (adjust as needed)
+float velocity[3] = {0}; // Velocity vector (x, y, z)
+
+void setup() {
+  Serial.begin(115200);
+  delay(1000);
+
+  // Connect to WiFi network
+  Serial.println("Connecting to WiFi");
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("WiFi connected");
+
+  server.begin();
+}
+
+void loop() {
+  client = server.available();
+  if (client) {
+    while (client.connected()) {
+      if (client.available()) {
+        char command = client.read();
+        if (command == 'START') {
+          // Start measuring acceleration
+          measureAcceleration();
+          // Send speed data back to the client
+          client.println(getSpeed());
+        }
+      }
+    }
+    client.stop();
+    Serial.println("Client disconnected");
+  }
+}
+
+void measureAcceleration() {
+  mpu.initialize();
+  delay(1000); // Allow sensor to stabilize
+  int16_t ax, ay, az;
+  while (true) {
+    mpu.getAcceleration(&ax, &ay, &az);
+    float accelX = ax / 16384.0;
+    float accelY = ay / 16384.0;
+    float accelZ = az / 16384.0;
+
+    // Integrate acceleration to obtain velocity
+    velocity[0] += accelX * dt;
+    velocity[1] += accelY * dt;
+    velocity[2] += accelZ * dt;
+    
+    // Wait for a short duration (adjust as needed)
+    delay(10);
+  }
+}
+
+String getSpeed() {
+  float speed = sqrt(velocity[0] * velocity[0] + velocity[1] * velocity[1] + velocity[2] * velocity[2]);
+  return String(speed);
+}
